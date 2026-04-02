@@ -43,7 +43,7 @@ const CreateRecipes = () => {
                 {/* <small className='text-red-400'>This is how the Error is shown</small> */}
 
                 <textarea type="text"
-                    {...register("description")}
+                    {...register("desc")}
                     className='block border-b outline-0 p-2 h-20'
                     placeholder='Start from here...' />
                 {/* <small className='text-red-400'>This is how the Error is shown</small> */}
@@ -60,7 +60,7 @@ const CreateRecipes = () => {
                 </select>
 
                 <textarea type="text"
-                    {...register("ingredients")}
+                    {...register("ingr")}
                     className='block border-b outline-0 p-2 h-20 text-sm'
                     placeholder='Write your ingredients with comma seperated' />
                 {/* <small className='text-red-400'>This is how the Error is shown</small> */}
