@@ -7,11 +7,11 @@ function Recipes() {
   console.log(data);
   
   const renderrecipes=data.map((recipe)=>(
-    <RecipeCard key={recipe.id}></RecipeCard>
+    <RecipeCard key={recipe.id} recipe={recipe}/>
   ))
   return (
-    <div>
-      {renderrecipes}
+    <div className='flex gap-3 flex-wrap'>
+      {data.length>0?renderrecipes:"No Recipes Found!!"}
     </div>
   )
 }
