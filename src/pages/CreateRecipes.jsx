@@ -17,11 +17,10 @@ const CreateRecipes = () => {
         const copydata=[...data];
         copydata.push(recipe)
         setdata(copydata)
+         localStorage.setItem("Recipes",JSON.stringify(copydata))
         reset()
         navigate("/recipes");
     }
-
-
 
     return (
         <div>

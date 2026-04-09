@@ -3,12 +3,12 @@ import { recipecontext} from '../context/RecipeContext'
 import RecipeCard from '../component/RecipeCard';
 
 function Recipes() {
-  const {data}=useContext(recipecontext);
-  console.log(data);
+  const {data=[]}=useContext(recipecontext);
   
-  const renderrecipes=data.map((recipe)=>(
+  const renderrecipes = Array.isArray(data) ? data.map((recipe)=>(
     <RecipeCard key={recipe.id} recipe={recipe}/>
-  ))
+  )) : []
+
   return (
     <div className='flex gap-3 flex-wrap'>
       {data.length>0?renderrecipes:"No Recipes Found!!"}

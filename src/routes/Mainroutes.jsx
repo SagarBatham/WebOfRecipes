@@ -4,11 +4,12 @@ import Home from '../pages/Home'
 import Recipes from '../pages/Recipes'
 import About from '../pages/About'
 import CreateRecipes from '../pages/CreateRecipes'
-import SingleRecipe from '../pages/SingleRecipe'
+import SingleRecipe from '../pages/Singlerecipe'
+import RecipeContext from '../context/RecipeContext'
 
 const Mainroutes = () => {
     return (
-        <div>
+        <RecipeContext>
             <Routes>
                 <Route path='/' element={<Home />} ></Route>
                 <Route path='/recipes' element={<Recipes />} ></Route>
@@ -16,7 +17,7 @@ const Mainroutes = () => {
                 <Route path='/about' element={<About />} ></Route>
                 <Route path='/create' element={<CreateRecipes />} ></Route>
             </Routes>
-        </div>
+        </RecipeContext>
     )
 }
 
