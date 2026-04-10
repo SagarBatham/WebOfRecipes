@@ -54,7 +54,8 @@ function About() {
           <div className='bg-gradient-to-r from-purple-600 to-pink-600 rounded-lg p-8 text-center'>
             <h2 className='text-2xl font-bold text-white mb-2'>Let's Cook Together!</h2>
             <p className='text-white opacity-90'>Have a recipe to share? Want to collaborate?</p>
-            <p className='text-white font-semibold mt-3'>📧 contact@webofrecipes.com</p>
+            <p className='text-white font-semibold mt-3'>📧 contact-shivsagar6912@gmail.com</p>
+            <p>Made by - Sagar Batham</p>
           </div>
         </div>
       </div>
