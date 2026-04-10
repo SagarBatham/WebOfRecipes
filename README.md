@@ -118,7 +118,7 @@ src/
 
 ## 🌐 Deployment
 
-Deployed on **Vercel** - [View Live Demo](https://your-vercel-link.com)
+Deployed on **Vercel** - [View Live Demo](https://recipesbysagar.vercel.app)
 
 The application is optimized for serverless deployment and uses static JSON data for maximum compatibility.
 
