@@ -12,11 +12,10 @@ const RecipeContext = (props) => {
   useEffect(() => {
     const fetchRecipes = async () => {
       try {
-        const response = await axios.get('http://localhost:5000/api/recipes');
+        const response = await axios.get('/recipes.json');
         setdata(response.data);
         localStorage.setItem("Recipes", JSON.stringify(response.data));
       } catch (error) {
-
         const stored = localStorage.getItem("Recipes");
         if (stored) {
           try {

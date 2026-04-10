@@ -4,7 +4,6 @@ import { useForm } from 'react-hook-form';
 import { recipecontext } from '../context/RecipeContext';
 import { toast } from 'react-toastify';
 import { useNavigate } from 'react-router-dom';
-import axios from 'axios';
 
 const CreateRecipes = () => {
     const navigate=useNavigate();
@@ -16,7 +15,7 @@ const CreateRecipes = () => {
         const copydata=[...data];
         copydata.push(recipe)
         setdata(copydata)
-        axios.post('http://localhost:5000/api/recipes', copydata);
+        localStorage.setItem("Recipes", JSON.stringify(copydata));
         toast.success("Recipe Created")
         reset()
         navigate("/recipes");

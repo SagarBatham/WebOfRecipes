@@ -4,7 +4,6 @@ import { recipecontext } from '../context/RecipeContext';
 import RecipeCard from '../component/RecipeCard';
 import { useForm } from 'react-hook-form';
 import { toast } from 'react-toastify';
-import axios from 'axios';
 
 
 const SingleRecipe = () => {
@@ -35,7 +34,6 @@ const SingleRecipe = () => {
     const copydata = [...data];
     copydata[recipeIndex] = { ...copydata[recipeIndex], ...recipe };
     setdata(copydata)
-    axios.post('http://localhost:5000/api/recipes', copydata);
     localStorage.setItem("Recipes", JSON.stringify(copydata));
     toast.success("Recipe Updated")
   }
@@ -43,7 +41,7 @@ const SingleRecipe = () => {
   const DeletHandler = () => {
     const filterData = data.filter(r => r.id != param.id)
     setdata(filterData)
-    axios.post('http://localhost:5000/api/recipes', filterData);
+    localStorage.setItem("Recipes", JSON.stringify(filterData));
     toast.success("Recipe Deleted")
     navigate("/recipes")
   }
