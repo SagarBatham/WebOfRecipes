@@ -5,9 +5,13 @@ import Nav from './navigat/Navbar'
 
 function App() {
   return (
-    <div className='py-10 px-[10%] w-screen h-screen text-2xl text-white bg-zinc-700'>
-      <Nav/>    
-      <Mainroutes/>
+    <div className='min-h-screen bg-gradient-to-br from-zinc-900 via-zinc-800 to-zinc-900 text-white'>
+      <div className='py-6 px-4 md:px-8 lg:px-[10%] max-w-7xl mx-auto'>
+        <Nav/>    
+        <main className='mt-8 mb-12'>
+          <Mainroutes/>
+        </main>
+      </div>
     </div>
   )
 }

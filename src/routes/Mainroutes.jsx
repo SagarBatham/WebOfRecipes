@@ -5,19 +5,20 @@ import Recipes from '../pages/Recipes'
 import About from '../pages/About'
 import CreateRecipes from '../pages/CreateRecipes'
 import SingleRecipe from '../pages/Singlerecipe'
-import RecipeContext from '../context/RecipeContext'
+import PageNotFound from "../pages/PageNotFound";
+import Fav from "../pages/Fav";
 
 const Mainroutes = () => {
     return (
-        <RecipeContext>
             <Routes>
                 <Route path='/' element={<Home />} ></Route>
                 <Route path='/recipes' element={<Recipes />} ></Route>
                  <Route path='/recipes/detail/:id' element={<SingleRecipe />} ></Route>
                 <Route path='/about' element={<About />} ></Route>
                 <Route path='/create' element={<CreateRecipes />} ></Route>
+                <Route path='*' element={<PageNotFound/>}></Route>
+                <Route path='/fav' element={<Fav/>}></Route>
             </Routes>
-        </RecipeContext>
     )
 }
 

@@ -1,0 +1,460 @@
+[
+  {
+    "id": 1,
+    "titles": "Pasta Carbonara",
+    "images": "https://images.unsplash.com/photo-1608755728617-aefab37d2edd?w=800",
+    "chefname": "Chef Mario",
+    "desc": "Classic Italian pasta dish",
+    "categories": "lunch",
+    "ingr": "pasta, eggs, bacon, cheese"
+  },
+  {
+    "id": 2,
+    "titles": "Pancakes",
+    "images": "https://images.unsplash.com/photo-1587731348889-4c3e7c54b1c2?w=800",
+    "chefname": "Chef Anna",
+    "desc": "Fluffy breakfast pancakes",
+    "categories": "breakfast",
+    "ingr": "flour, eggs, milk, butter"
+  },
+  {
+    "id": 3,
+    "titles": "Burger",
+    "images": "https://images.unsplash.com/photo-1550547660-d9450f859349?w=800",
+    "chefname": "Chef John",
+    "desc": "Juicy grilled burger",
+    "categories": "dinner",
+    "ingr": "bun, beef, lettuce, cheese"
+  },
+  {
+    "id": 4,
+    "titles": "Pizza",
+    "images": "https://images.unsplash.com/photo-1548365328-8b849f6a9c6d?w=800",
+    "chefname": "Chef Luigi",
+    "desc": "Cheesy Italian pizza",
+    "categories": "lunch",
+    "ingr": "dough, cheese, tomato sauce"
+  },
+  {
+    "id": 5,
+    "titles": "Sushi",
+    "images": "https://images.unsplash.com/photo-1553621042-f6e147245754?w=800",
+    "chefname": "Chef Sato",
+    "desc": "Fresh sushi platter",
+    "categories": "dinner",
+    "ingr": "rice, fish, seaweed"
+  },
+  {
+    "id": 6,
+    "titles": "Biryani",
+    "images": "https://images.unsplash.com/photo-1631515243349-e0cb75fb8d3a?w=800",
+    "chefname": "Chef Ali",
+    "desc": "Spicy Indian rice dish",
+    "categories": "dinner",
+    "ingr": "rice, chicken, spices"
+  },
+  {
+    "id": 7,
+    "titles": "Salad",
+    "images": "https://images.unsplash.com/photo-1546069901-ba9599a7e63c?w=800",
+    "chefname": "Chef Green",
+    "desc": "Healthy vegetable salad",
+    "categories": "lunch",
+    "ingr": "lettuce, tomato, cucumber"
+  },
+  {
+    "id": 8,
+    "titles": "French Fries",
+    "images": "https://images.unsplash.com/photo-1576107232684-1279f390859f?w=800",
+    "chefname": "Chef Crispy",
+    "desc": "Crispy golden fries",
+    "categories": "snacks",
+    "ingr": "potatoes, salt, oil"
+  },
+  {
+    "id": 9,
+    "titles": "Tacos",
+    "images": "https://images.unsplash.com/photo-1600891964599-f61ba0e24092?w=800",
+    "chefname": "Chef Carlos",
+    "desc": "Mexican street tacos",
+    "categories": "dinner",
+    "ingr": "tortilla, meat, veggies"
+  },
+  {
+    "id": 10,
+    "titles": "Ice Cream",
+    "images": "https://images.unsplash.com/photo-1497034825429-c343d7c6a68f?w=800",
+    "chefname": "Chef Sweet",
+    "desc": "Cold creamy dessert",
+    "categories": "dessert",
+    "ingr": "milk, sugar, cream"
+  },
+
+  {
+    "id": 11,
+    "titles": "Sandwich",
+    "images": "https://images.unsplash.com/photo-1528731708534-816fe59f90cb?w=800",
+    "chefname": "Chef Mike",
+    "desc": "Simple healthy sandwich",
+    "categories": "breakfast",
+    "ingr": "bread, veggies, butter"
+  },
+  {
+    "id": 12,
+    "titles": "Fried Rice",
+    "images": "https://images.unsplash.com/photo-1603133872878-684f208fb84b?w=800",
+    "chefname": "Chef Lee",
+    "desc": "Chinese fried rice",
+    "categories": "lunch",
+    "ingr": "rice, vegetables, soy sauce"
+  },
+  {
+    "id": 13,
+    "titles": "Noodles",
+    "images": "https://images.unsplash.com/photo-1612929633738-8fe44f7ec841?w=800",
+    "chefname": "Chef Wong",
+    "desc": "Spicy noodles",
+    "categories": "dinner",
+    "ingr": "noodles, sauce, veggies"
+  },
+  {
+    "id": 14,
+    "titles": "Dosa",
+    "images": "https://images.unsplash.com/photo-1589302168068-964664d93dc0?w=800",
+    "chefname": "Chef Ravi",
+    "desc": "South Indian dosa",
+    "categories": "breakfast",
+    "ingr": "rice batter, potato"
+  },
+  {
+    "id": 15,
+    "titles": "Idli",
+    "images": "https://images.unsplash.com/photo-1626500154743-94e9c3a6e0f2?w=800",
+    "chefname": "Chef Kumar",
+    "desc": "Soft steamed idli",
+    "categories": "breakfast",
+    "ingr": "rice batter"
+  },
+
+  {
+    "id": 16,
+    "titles": "Chole Bhature",
+    "images": "https://images.unsplash.com/photo-1627308595181-2c7c5f3dc5f4?w=800",
+    "chefname": "Chef Delhi",
+    "desc": "Punjabi classic dish",
+    "categories": "lunch",
+    "ingr": "chickpeas, flour"
+  },
+  {
+    "id": 17,
+    "titles": "Rajma Chawal",
+    "images": "https://images.unsplash.com/photo-1617196038435-3f7c9d8a7d0f?w=800",
+    "chefname": "Chef Punjab",
+    "desc": "Kidney beans with rice",
+    "categories": "lunch",
+    "ingr": "rajma, rice"
+  },
+  {
+    "id": 18,
+    "titles": "Paneer Butter Masala",
+    "images": "https://images.unsplash.com/photo-1603894584373-5ac82b2ae398?w=800",
+    "chefname": "Chef Singh",
+    "desc": "Creamy paneer curry",
+    "categories": "dinner",
+    "ingr": "paneer, butter, tomato"
+  },
+  {
+    "id": 19,
+    "titles": "Dal Tadka",
+    "images": "https://images.unsplash.com/photo-1625944525903-c6b9b2c1f1b7?w=800",
+    "chefname": "Chef Home",
+    "desc": "Simple dal fry",
+    "categories": "lunch",
+    "ingr": "lentils, spices"
+  },
+  {
+    "id": 20,
+    "titles": "Gulab Jamun",
+    "images": "https://images.unsplash.com/photo-1601050690597-df0568f70950?w=800",
+    "chefname": "Chef Sweet",
+    "desc": "Indian dessert",
+    "categories": "dessert",
+    "ingr": "milk solids, sugar syrup"
+  }
+  ,
+{
+  "id": 21,
+  "titles": "Chocolate Cake",
+  "images": "https://images.unsplash.com/photo-1578985545062-69928b1d9587?w=800",
+  "chefname": "Chef Baker",
+  "desc": "Rich chocolate cake",
+  "categories": "dessert",
+  "ingr": "flour, cocoa, sugar"
+},
+{
+  "id": 22,
+  "titles": "Cupcakes",
+  "images": "https://images.unsplash.com/photo-1519864600265-abb23847ef2c?w=800",
+  "chefname": "Chef Mini",
+  "desc": "Soft cupcakes",
+  "categories": "dessert",
+  "ingr": "flour, sugar, cream"
+},
+{
+  "id": 23,
+  "titles": "Momos",
+  "images": "https://images.unsplash.com/photo-1627308595229-7830a5c91f9f?w=800",
+  "chefname": "Chef Nepal",
+  "desc": "Steamed dumplings",
+  "categories": "snacks",
+  "ingr": "flour, veggies"
+},
+{
+  "id": 24,
+  "titles": "Spring Rolls",
+  "images": "https://images.unsplash.com/photo-1604908812847-5c3d5c9a6f39?w=800",
+  "chefname": "Chef Asia",
+  "desc": "Crispy spring rolls",
+  "categories": "snacks",
+  "ingr": "vegetables, wrapper"
+},
+{
+  "id": 25,
+  "titles": "Hot Dog",
+  "images": "https://images.unsplash.com/photo-1550547660-5c0b91c9b0c2?w=800",
+  "chefname": "Chef Street",
+  "desc": "Classic hot dog",
+  "categories": "snacks",
+  "ingr": "bun, sausage"
+},
+{
+  "id": 26,
+  "titles": "Milkshake",
+  "images": "https://images.unsplash.com/photo-1577805947697-89e18249d767?w=800",
+  "chefname": "Chef Cool",
+  "desc": "Thick milkshake",
+  "categories": "beverage",
+  "ingr": "milk, sugar, ice cream"
+},
+{
+  "id": 27,
+  "titles": "Smoothie",
+  "images": "https://images.unsplash.com/photo-1505252585461-04db1eb84625?w=800",
+  "chefname": "Chef Fresh",
+  "desc": "Healthy fruit smoothie",
+  "categories": "beverage",
+  "ingr": "fruits, yogurt"
+},
+{
+  "id": 28,
+  "titles": "Omelette",
+  "images": "https://images.unsplash.com/photo-1551218808-94e220e084d2?w=800",
+  "chefname": "Chef Egg",
+  "desc": "Quick egg omelette",
+  "categories": "breakfast",
+  "ingr": "eggs, salt, butter"
+},
+{
+  "id": 29,
+  "titles": "Toast",
+  "images": "https://images.unsplash.com/photo-1509440159596-0249088772ff?w=800",
+  "chefname": "Chef Morning",
+  "desc": "Buttery toast",
+  "categories": "breakfast",
+  "ingr": "bread, butter"
+},
+{
+  "id": 30,
+  "titles": "Waffles",
+  "images": "https://images.unsplash.com/photo-1512058564366-c9e3e0464b1b?w=800",
+  "chefname": "Chef Sweet",
+  "desc": "Crispy waffles",
+  "categories": "breakfast",
+  "ingr": "flour, milk, sugar"
+},
+
+{
+  "id": 31,
+  "titles": "Spaghetti",
+  "images": "https://images.unsplash.com/photo-1589308078059-be1415eab4c3?w=800",
+  "chefname": "Chef Italy",
+  "desc": "Italian spaghetti",
+  "categories": "lunch",
+  "ingr": "pasta, sauce"
+},
+{
+  "id": 32,
+  "titles": "Lasagna",
+  "images": "https://images.unsplash.com/photo-1603133872878-684f208fb84b?w=800",
+  "chefname": "Chef Oven",
+  "desc": "Layered pasta dish",
+  "categories": "dinner",
+  "ingr": "pasta, cheese"
+},
+{
+  "id": 33,
+  "titles": "Mac and Cheese",
+  "images": "https://images.unsplash.com/photo-1543332164-6e82f355bad5?w=800",
+  "chefname": "Chef Comfort",
+  "desc": "Cheesy macaroni",
+  "categories": "lunch",
+  "ingr": "macaroni, cheese"
+},
+{
+  "id": 34,
+  "titles": "Grilled Chicken",
+  "images": "https://images.unsplash.com/photo-1604908176997-43198bdf1c89?w=800",
+  "chefname": "Chef Grill",
+  "desc": "Juicy grilled chicken",
+  "categories": "dinner",
+  "ingr": "chicken, spices"
+},
+{
+  "id": 35,
+  "titles": "Steak",
+  "images": "https://images.unsplash.com/photo-1551183053-bf91a1d81141?w=800",
+  "chefname": "Chef Prime",
+  "desc": "Grilled steak",
+  "categories": "dinner",
+  "ingr": "beef, spices"
+},
+{
+  "id": 36,
+  "titles": "Fish Curry",
+  "images": "https://images.unsplash.com/photo-1625944525533-473f1a3fbc6a?w=800",
+  "chefname": "Chef Coast",
+  "desc": "Spicy fish curry",
+  "categories": "dinner",
+  "ingr": "fish, spices"
+},
+{
+  "id": 37,
+  "titles": "Pav Bhaji",
+  "images": "https://images.unsplash.com/photo-1617191519105-d07b98b10de6?w=800",
+  "chefname": "Chef Mumbai",
+  "desc": "Street style pav bhaji",
+  "categories": "snacks",
+  "ingr": "vegetables, bread"
+},
+{
+  "id": 38,
+  "titles": "Vada Pav",
+  "images": "https://images.unsplash.com/photo-1601050690597-df0568f70950?w=800",
+  "chefname": "Chef Street",
+  "desc": "Mumbai burger",
+  "categories": "snacks",
+  "ingr": "potato, bun"
+},
+{
+  "id": 39,
+  "titles": "Samosa",
+  "images": "https://images.unsplash.com/photo-1604908177522-402e2c0d1b4c?w=800",
+  "chefname": "Chef India",
+  "desc": "Crispy samosa",
+  "categories": "snacks",
+  "ingr": "potato, flour"
+},
+{
+  "id": 40,
+  "titles": "Kachori",
+  "images": "https://images.unsplash.com/photo-1626500154743-94e9c3a6e0f2?w=800",
+  "chefname": "Chef Rajasthan",
+  "desc": "Spicy kachori",
+  "categories": "snacks",
+  "ingr": "flour, dal"
+},
+
+{
+  "id": 41,
+  "titles": "Falafel",
+  "images": "https://images.unsplash.com/photo-1543353071-873f17a7a088?w=800",
+  "chefname": "Chef MiddleEast",
+  "desc": "Chickpea balls",
+  "categories": "snacks",
+  "ingr": "chickpeas, spices"
+},
+{
+  "id": 42,
+  "titles": "Hummus",
+  "images": "https://images.unsplash.com/photo-1604908177520-6c7c6c9a6f39?w=800",
+  "chefname": "Chef Dip",
+  "desc": "Creamy hummus",
+  "categories": "snacks",
+  "ingr": "chickpeas, tahini"
+},
+{
+  "id": 43,
+  "titles": "Shawarma",
+  "images": "https://images.unsplash.com/photo-1604908177012-6c7c5c9a6f39?w=800",
+  "chefname": "Chef Wrap",
+  "desc": "Chicken shawarma",
+  "categories": "dinner",
+  "ingr": "chicken, bread"
+},
+{
+  "id": 44,
+  "titles": "Ramen",
+  "images": "https://images.unsplash.com/photo-1557872943-16a5ac26437e?w=800",
+  "chefname": "Chef Japan",
+  "desc": "Hot ramen bowl",
+  "categories": "dinner",
+  "ingr": "noodles, broth"
+},
+{
+  "id": 45,
+  "titles": "Tempura",
+  "images": "https://images.unsplash.com/photo-1582450871972-ab5ca641643d?w=800",
+  "chefname": "Chef Fry",
+  "desc": "Japanese tempura",
+  "categories": "snacks",
+  "ingr": "vegetables, batter"
+},
+
+{
+  "id": 46,
+  "titles": "Croissant",
+  "images": "https://images.unsplash.com/photo-1509440159596-0249088772ff?w=800",
+  "chefname": "Chef Paris",
+  "desc": "Buttery croissant",
+  "categories": "breakfast",
+  "ingr": "flour, butter"
+},
+{
+  "id": 47,
+  "titles": "Donuts",
+  "images": "https://images.unsplash.com/photo-1551024601-bec78aea704b?w=800",
+  "chefname": "Chef Sweet",
+  "desc": "Glazed donuts",
+  "categories": "dessert",
+  "ingr": "flour, sugar"
+},
+{
+  "id": 48,
+  "titles": "Brownies",
+  "images": "https://images.unsplash.com/photo-1606313564200-e75d5e30476c?w=800",
+  "chefname": "Chef Choco",
+  "desc": "Chocolate brownies",
+  "categories": "dessert",
+  "ingr": "cocoa, sugar"
+},
+{
+  "id": 49,
+  "titles": "Cheesecake",
+  "images": "https://images.unsplash.com/photo-1565958011703-44f9829ba187?w=800",
+  "chefname": "Chef Cream",
+  "desc": "Creamy cheesecake",
+  "categories": "dessert",
+  "ingr": "cheese, sugar"
+},
+{
+  "id": 50,
+  "titles": "Apple Pie",
+  "images": "https://images.unsplash.com/photo-1562007908-17c67e878c88?w=800",
+  "chefname": "Chef Classic",
+  "desc": "Apple pie",
+  "categories": "dessert",
+  "ingr": "apple, flour"
+}
+
+
+]
