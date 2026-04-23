@@ -150,7 +150,7 @@ This project is open source and available under the MIT License.
 ## 👨‍💻 Author
 
 **Your Name**
-- GitHub: [@yourusername](https://github.com/yourusername)
+- GitHub: [Sagar Batham](https://github.com/SagarBatham)
 
 ## 🙏 Acknowledgments
 
